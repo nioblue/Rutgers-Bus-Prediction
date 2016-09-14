@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1DA33D18A99C9500FC20E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1DA33C18A99C9500FC20E6 /* Cocoa.framework */; };
+		0C1DA34718A99C9500FC20E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C1DA34518A99C9500FC20E6 /* InfoPlist.strings */; };
+		0C1DA34918A99C9500FC20E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA34818A99C9500FC20E6 /* main.m */; };
+		0C1DA34D18A99C9500FC20E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0C1DA34B18A99C9500FC20E6 /* Credits.rtf */; };
+		0C1DA35018A99C9500FC20E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA34F18A99C9500FC20E6 /* AppDelegate.m */; };
+		0C1DA35318A99C9500FC20E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C1DA35118A99C9500FC20E6 /* MainMenu.xib */; };
+		0C1DA35518A99C9500FC20E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1DA35418A99C9500FC20E6 /* Images.xcassets */; };
+		0C1DA35C18A99C9500FC20E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1DA35B18A99C9500FC20E6 /* XCTest.framework */; };
+		0C1DA35D18A99C9500FC20E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1DA33C18A99C9500FC20E6 /* Cocoa.framework */; };
+		0C1DA36518A99C9500FC20E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C1DA36318A99C9500FC20E6 /* InfoPlist.strings */; };
+		0C1DA36718A99C9500FC20E6 /* BusPredictionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA36618A99C9500FC20E6 /* BusPredictionTests.m */; };
+		0C1DA37218A9C4FA00FC20E6 /* BusRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA37118A9C4FA00FC20E6 /* BusRoute.m */; };
+		0C1DA37518AB2E7900FC20E6 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA37418AB2E7900FC20E6 /* Stop.m */; };
+		0C1DA37818ABC46200FC20E6 /* RouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA37718ABC46200FC20E6 /* RouteConfig.m */; };
+		0C1DA37B18ABC50200FC20E6 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA37A18ABC50200FC20E6 /* Helper.m */; };
+		0C1DA39F18AD44E400FC20E6 /* RouteAndStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA39E18AD44E400FC20E6 /* RouteAndStop.m */; };
+		0C1DA3A218AD44EF00FC20E6 /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1DA3A118AD44EF00FC20E6 /* Prediction.m */; };
+		0C7400CB18AFE9C40003BCB4 /* BusStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7400CA18AFE9C40003BCB4 /* BusStat.m */; };
+		0C7400CE18B1415F0003BCB4 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7400CD18B1415F0003BCB4 /* Schedule.m */; };
+		0CACAD6F18FF47E400B659C9 /* Schedule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CACAD6E18FF47E400B659C9 /* Schedule.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1DA35E18A99C9500FC20E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1DA33118A99C9500FC20E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1DA33818A99C9500FC20E6;
+			remoteInfo = BusPrediction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1DA33918A99C9500FC20E6 /* BusPrediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusPrediction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1DA33C18A99C9500FC20E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0C1DA33F18A99C9500FC20E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0C1DA34018A99C9500FC20E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0C1DA34118A99C9500FC20E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C1DA34418A99C9500FC20E6 /* BusPrediction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusPrediction-Info.plist"; sourceTree = "<group>"; };
+		0C1DA34618A99C9500FC20E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C1DA34818A99C9500FC20E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C1DA34A18A99C9500FC20E6 /* BusPrediction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusPrediction-Prefix.pch"; sourceTree = "<group>"; };
+		0C1DA34C18A99C9500FC20E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0C1DA34E18A99C9500FC20E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C1DA34F18A99C9500FC20E6 /* AppDelegate.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; tabWidth = 4; };
+		0C1DA35218A99C9500FC20E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0C1DA35418A99C9500FC20E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C1DA35A18A99C9500FC20E6 /* BusPredictionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusPredictionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1DA35B18A99C9500FC20E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0C1DA36218A99C9500FC20E6 /* BusPredictionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusPredictionTests-Info.plist"; sourceTree = "<group>"; };
+		0C1DA36418A99C9500FC20E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C1DA36618A99C9500FC20E6 /* BusPredictionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusPredictionTests.m; sourceTree = "<group>"; };
+		0C1DA37018A9C4FA00FC20E6 /* BusRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusRoute.h; sourceTree = "<group>"; };
+		0C1DA37118A9C4FA00FC20E6 /* BusRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusRoute.m; sourceTree = "<group>"; };
+		0C1DA37318AB2E7900FC20E6 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		0C1DA37418AB2E7900FC20E6 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		0C1DA37618ABC46200FC20E6 /* RouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteConfig.h; sourceTree = "<group>"; };
+		0C1DA37718ABC46200FC20E6 /* RouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteConfig.m; sourceTree = "<group>"; };
+		0C1DA37918ABC50200FC20E6 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		0C1DA37A18ABC50200FC20E6 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		0C1DA39D18AD44E400FC20E6 /* RouteAndStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAndStop.h; sourceTree = "<group>"; };
+		0C1DA39E18AD44E400FC20E6 /* RouteAndStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteAndStop.m; sourceTree = "<group>"; };
+		0C1DA3A018AD44EF00FC20E6 /* Prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prediction.h; sourceTree = "<group>"; };
+		0C1DA3A118AD44EF00FC20E6 /* Prediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prediction.m; sourceTree = "<group>"; };
+		0C1DA3A518AECD8900FC20E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0C7400C918AFE9C40003BCB4 /* BusStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStat.h; sourceTree = "<group>"; };
+		0C7400CA18AFE9C40003BCB4 /* BusStat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStat.m; sourceTree = "<group>"; };
+		0C7400CC18B1415F0003BCB4 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		0C7400CD18B1415F0003BCB4 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		0CACAD6E18FF47E400B659C9 /* Schedule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Schedule.plist; sourceTree = "<group>"; };
+		0CACAD70190347F700B659C9 /* BusPrediction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BusPrediction.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1DA33618A99C9500FC20E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1DA33D18A99C9500FC20E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1DA35718A99C9500FC20E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1DA35D18A99C9500FC20E6 /* Cocoa.framework in Frameworks */,
+				0C1DA35C18A99C9500FC20E6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1DA33018A99C9500FC20E6 = {
+			isa = PBXGroup;
+			children = (
+				0C1DA34218A99C9500FC20E6 /* BusPrediction */,
+				0C1DA36018A99C9500FC20E6 /* BusPredictionTests */,
+				0C1DA33B18A99C9500FC20E6 /* Frameworks */,
+				0C1DA33A18A99C9500FC20E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1DA33A18A99C9500FC20E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA33918A99C9500FC20E6 /* BusPrediction.app */,
+				0C1DA35A18A99C9500FC20E6 /* BusPredictionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1DA33B18A99C9500FC20E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA3A518AECD8900FC20E6 /* MapKit.framework */,
+				0C1DA33C18A99C9500FC20E6 /* Cocoa.framework */,
+				0C1DA35B18A99C9500FC20E6 /* XCTest.framework */,
+				0C1DA33E18A99C9500FC20E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C1DA33E18A99C9500FC20E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA33F18A99C9500FC20E6 /* AppKit.framework */,
+				0C1DA34018A99C9500FC20E6 /* CoreData.framework */,
+				0C1DA34118A99C9500FC20E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0C1DA34218A99C9500FC20E6 /* BusPrediction */ = {
+			isa = PBXGroup;
+			children = (
+				0CACAD70190347F700B659C9 /* BusPrediction.entitlements */,
+				0C1DA34E18A99C9500FC20E6 /* AppDelegate.h */,
+				0C1DA34F18A99C9500FC20E6 /* AppDelegate.m */,
+				0CACAD6E18FF47E400B659C9 /* Schedule.plist */,
+				0C7400C918AFE9C40003BCB4 /* BusStat.h */,
+				0C7400CA18AFE9C40003BCB4 /* BusStat.m */,
+				0C1DA39D18AD44E400FC20E6 /* RouteAndStop.h */,
+				0C1DA39E18AD44E400FC20E6 /* RouteAndStop.m */,
+				0C7400CC18B1415F0003BCB4 /* Schedule.h */,
+				0C7400CD18B1415F0003BCB4 /* Schedule.m */,
+				0C1DA3A018AD44EF00FC20E6 /* Prediction.h */,
+				0C1DA3A118AD44EF00FC20E6 /* Prediction.m */,
+				0C1DA37618ABC46200FC20E6 /* RouteConfig.h */,
+				0C1DA37718ABC46200FC20E6 /* RouteConfig.m */,
+				0C1DA37918ABC50200FC20E6 /* Helper.h */,
+				0C1DA37A18ABC50200FC20E6 /* Helper.m */,
+				0C1DA37018A9C4FA00FC20E6 /* BusRoute.h */,
+				0C1DA37118A9C4FA00FC20E6 /* BusRoute.m */,
+				0C1DA37318AB2E7900FC20E6 /* Stop.h */,
+				0C1DA37418AB2E7900FC20E6 /* Stop.m */,
+				0C1DA35118A99C9500FC20E6 /* MainMenu.xib */,
+				0C1DA35418A99C9500FC20E6 /* Images.xcassets */,
+				0C1DA34318A99C9500FC20E6 /* Supporting Files */,
+			);
+			path = BusPrediction;
+			sourceTree = "<group>";
+		};
+		0C1DA34318A99C9500FC20E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA34418A99C9500FC20E6 /* BusPrediction-Info.plist */,
+				0C1DA34518A99C9500FC20E6 /* InfoPlist.strings */,
+				0C1DA34818A99C9500FC20E6 /* main.m */,
+				0C1DA34A18A99C9500FC20E6 /* BusPrediction-Prefix.pch */,
+				0C1DA34B18A99C9500FC20E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C1DA36018A99C9500FC20E6 /* BusPredictionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA36618A99C9500FC20E6 /* BusPredictionTests.m */,
+				0C1DA36118A99C9500FC20E6 /* Supporting Files */,
+			);
+			path = BusPredictionTests;
+			sourceTree = "<group>";
+		};
+		0C1DA36118A99C9500FC20E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1DA36218A99C9500FC20E6 /* BusPredictionTests-Info.plist */,
+				0C1DA36318A99C9500FC20E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1DA33818A99C9500FC20E6 /* BusPrediction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1DA36A18A99C9500FC20E6 /* Build configuration list for PBXNativeTarget "BusPrediction" */;
+			buildPhases = (
+				0C1DA33518A99C9500FC20E6 /* Sources */,
+				0C1DA33618A99C9500FC20E6 /* Frameworks */,
+				0C1DA33718A99C9500FC20E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusPrediction;
+			productName = BusPrediction;
+			productReference = 0C1DA33918A99C9500FC20E6 /* BusPrediction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C1DA35918A99C9500FC20E6 /* BusPredictionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1DA36D18A99C9500FC20E6 /* Build configuration list for PBXNativeTarget "BusPredictionTests" */;
+			buildPhases = (
+				0C1DA35618A99C9500FC20E6 /* Sources */,
+				0C1DA35718A99C9500FC20E6 /* Frameworks */,
+				0C1DA35818A99C9500FC20E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1DA35F18A99C9500FC20E6 /* PBXTargetDependency */,
+			);
+			name = BusPredictionTests;
+			productName = BusPredictionTests;
+			productReference = 0C1DA35A18A99C9500FC20E6 /* BusPredictionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1DA33118A99C9500FC20E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Li Bohan";
+				TargetAttributes = {
+					0C1DA33818A99C9500FC20E6 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0C1DA35918A99C9500FC20E6 = {
+						TestTargetID = 0C1DA33818A99C9500FC20E6;
+					};
+				};
+			};
+			buildConfigurationList = 0C1DA33418A99C9500FC20E6 /* Build configuration list for PBXProject "BusPrediction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1DA33018A99C9500FC20E6;
+			productRefGroup = 0C1DA33A18A99C9500FC20E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1DA33818A99C9500FC20E6 /* BusPrediction */,
+				0C1DA35918A99C9500FC20E6 /* BusPredictionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1DA33718A99C9500FC20E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1DA34718A99C9500FC20E6 /* InfoPlist.strings in Resources */,
+				0C1DA35518A99C9500FC20E6 /* Images.xcassets in Resources */,
+				0C1DA34D18A99C9500FC20E6 /* Credits.rtf in Resources */,
+				0CACAD6F18FF47E400B659C9 /* Schedule.plist in Resources */,
+				0C1DA35318A99C9500FC20E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1DA35818A99C9500FC20E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1DA36518A99C9500FC20E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1DA33518A99C9500FC20E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7400CE18B1415F0003BCB4 /* Schedule.m in Sources */,
+				0C7400CB18AFE9C40003BCB4 /* BusStat.m in Sources */,
+				0C1DA3A218AD44EF00FC20E6 /* Prediction.m in Sources */,
+				0C1DA37218A9C4FA00FC20E6 /* BusRoute.m in Sources */,
+				0C1DA37B18ABC50200FC20E6 /* Helper.m in Sources */,
+				0C1DA35018A99C9500FC20E6 /* AppDelegate.m in Sources */,
+				0C1DA39F18AD44E400FC20E6 /* RouteAndStop.m in Sources */,
+				0C1DA34918A99C9500FC20E6 /* main.m in Sources */,
+				0C1DA37518AB2E7900FC20E6 /* Stop.m in Sources */,
+				0C1DA37818ABC46200FC20E6 /* RouteConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1DA35618A99C9500FC20E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1DA36718A99C9500FC20E6 /* BusPredictionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1DA35F18A99C9500FC20E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1DA33818A99C9500FC20E6 /* BusPrediction */;
+			targetProxy = 0C1DA35E18A99C9500FC20E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C1DA34518A99C9500FC20E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1DA34618A99C9500FC20E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C1DA34B18A99C9500FC20E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1DA34C18A99C9500FC20E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0C1DA35118A99C9500FC20E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1DA35218A99C9500FC20E6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0C1DA36318A99C9500FC20E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1DA36418A99C9500FC20E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C1DA36818A99C9500FC20E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C1DA36918A99C9500FC20E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C1DA36B18A99C9500FC20E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BusPrediction/BusPrediction.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusPrediction/BusPrediction-Prefix.pch";
+				INFOPLIST_FILE = "BusPrediction/BusPrediction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C1DA36C18A99C9500FC20E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BusPrediction/BusPrediction.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusPrediction/BusPrediction-Prefix.pch";
+				INFOPLIST_FILE = "BusPrediction/BusPrediction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0C1DA36E18A99C9500FC20E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BusPrediction.app/Contents/MacOS/BusPrediction";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusPrediction/BusPrediction-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BusPredictionTests/BusPredictionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0C1DA36F18A99C9500FC20E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BusPrediction.app/Contents/MacOS/BusPrediction";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusPrediction/BusPrediction-Prefix.pch";
+				INFOPLIST_FILE = "BusPredictionTests/BusPredictionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1DA33418A99C9500FC20E6 /* Build configuration list for PBXProject "BusPrediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1DA36818A99C9500FC20E6 /* Debug */,
+				0C1DA36918A99C9500FC20E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1DA36A18A99C9500FC20E6 /* Build configuration list for PBXNativeTarget "BusPrediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1DA36B18A99C9500FC20E6 /* Debug */,
+				0C1DA36C18A99C9500FC20E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1DA36D18A99C9500FC20E6 /* Build configuration list for PBXNativeTarget "BusPredictionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1DA36E18A99C9500FC20E6 /* Debug */,
+				0C1DA36F18A99C9500FC20E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1DA33118A99C9500FC20E6 /* Project object */;
+}
